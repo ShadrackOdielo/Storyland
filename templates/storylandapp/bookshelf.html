@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ shelf.user.username }}'s {{ shelf.name }} Shelf</title>
+</head>
+<body>
+    <h1>{{ shelf.user.username }}'s {{ shelf.name }} Shelf</h1>
+    <ul>
+        {% for book in shelf.books.all %}
+            <li>{{ book.title }}</li>
+        {% endfor %}
+    </ul>
+    <!-- Add more details as needed -->
+</body>
+</html>

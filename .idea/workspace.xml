@@ -4,8 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25fa0bcb-aa68-4590-83f7-ce5f95fd5936" name="Changes" comment="created the project folder and added files">
+    <list default="true" id="25fa0bcb-aa68-4590-83f7-ce5f95fd5936" name="Changes" comment="updated gitignore to ignore workspace and env files">
+      <change afterPath="$PROJECT_DIR$/populate_books.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storylandapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storylandapp/migrations/0002_book_added_by.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storylandapp/migrations/0003_alter_book_published_date.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storylandapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/django_registration/activation_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/django_registration/activation_email_body.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/django_registration/activation_email_subject.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/django_registration/activation_failed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/django_registration/registration_closed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/django_registration/registration_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/django_registration/registration_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/storylandapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/storylandapp/book_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/storylandapp/bookshelf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/storylandapp/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/storylandapp/user_dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/storylandapp/user_profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storyland/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/storyland/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storyland/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/storyland/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storylandapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/storylandapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storylandapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/storylandapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storylandapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/storylandapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +41,14 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Pull.Settings">
     <option name="OPTIONS">
@@ -56,20 +91,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/storylandapp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="storyland" type="Python.DjangoServer" factoryName="Django server">
       <module name="storyland" />
@@ -111,7 +155,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703012593365</updated>
-      <workItem from="1703012649118" duration="1230000" />
+      <workItem from="1703012649118" duration="3096000" />
+      <workItem from="1703052969297" duration="12998000" />
     </task>
     <task id="LOCAL-00001" summary="created the project folder and added files">
       <option name="closed" value="true" />
@@ -121,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703013229592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated gitignore to ignore workspace and env files">
+      <option name="closed" value="true" />
+      <created>1703013923836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703013923836</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="created the project folder and added files" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the project folder and added files" />
+    <MESSAGE value="updated gitignore to ignore workspace and env files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated gitignore to ignore workspace and env files" />
   </component>
 </project>
